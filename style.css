@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Logo Font";
+  src: url("./Fonts/Allura-Regular.otf");
+}
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    background-color: #1D428A;
+    color: #ffc72c;
+    font-family: 'Montserrat', sans-serif; 
+  }
+  /* Navbar */
+  .header {
+    background-color: #ffc72c;
+    color: #fff;
+    font-size: 1.25rem; /*1rem = 16px */
+  }
+  
+  .header h1{
+      font-family: 'Logo Font', cursive;
+  }
+  .nav-links a {
+    text-decoration: none; /* retirando o sublinhado do link */
+    color: #1D428A;
+  }
+  
+  /* Hero */
+  .hero {
+    background-image: url('https://www.fiap.com.br/imgs/institucional/photos-gallery/large/19.png');
+    background-size: cover;
+    background-position: center;
+    height: 70vh; /* 70% da altura da tela */
+    text-align: center;
+  }
+
+  .hero a{
+    color: #fff;
+    font-size: 1.75rem /* 1.75rem = 28px */;
+  }
+  
+  
+  .hero-text {
+    color: white;
+    font-size: 3rem; /* 3rem = 48px */
+    font-weight: bold;
+  }
+
+
+  .painel{
+    margin-top: 3rem;
+  }
+
+  .card {
+    width: 20%;
+    background-color: #ffc72c;
+    font-size: 1.25rem; /* 1.25rem = 20px */
+    font-weight: bold;
+    color: white;
+    margin: .75rem; /* 0.75rem = 12px */
+    padding: 1em;
+    text-align: center
+  }
+  
+  .card p{
+    font-weight: 400;
+  }
+  .titulo-card, .descricao-card {
+    color: #1D428A;
+  }
+  
