@@ -17,40 +17,71 @@
   }
   /* Navbar */
   .header {
-    background-color: #ffc72c;
+    background-color: #1D428A;
     color: #fff;
     font-size: 1.25rem; /*1rem = 16px */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
   }
   
   .header h1{
       font-family: 'Logo Font', cursive;
   }
+
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 3rem;
+  }
   .nav-links a {
     text-decoration: none; /* retirando o sublinhado do link */
-    color: #1D428A;
+    color: #ffffff;
+  }
+  .nav-links a:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: #ffffff;
   }
   
   /* Hero */
   .hero {
-    background-image: url('https://www.fiap.com.br/imgs/institucional/photos-gallery/large/19.png');
+    background-color: rgb(255, 255, 255);
+    color: black;
     background-size: cover;
     background-position: center;
     height: 70vh; /* 70% da altura da tela */
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .hero h1{
+    color: black;
   }
 
   .hero a{
     color: #fff;
     font-size: 1.75rem /* 1.75rem = 28px */;
+    text-decoration: none;
+    background-color: rgb(0, 66, 0);
+    padding: 0.5rem;
+    color: rgb(255, 255, 255);
+  }
+  .hero a:hover{
+    background-color:rgb(0, 108, 14) ;
+    color: rgb(255, 255, 255);
+    transition: 2s;
   }
   
-  
+
   .hero-text {
     color: white;
     font-size: 3rem; /* 3rem = 48px */
     font-weight: bold;
   }
-
 
   .painel{
     margin-top: 3rem;
@@ -58,19 +89,26 @@
 
   .card {
     width: 20%;
-    background-color: #ffc72c;
+    background-color: #1D428A;
     font-size: 1.25rem; /* 1.25rem = 20px */
     font-weight: bold;
     color: white;
     margin: .75rem; /* 0.75rem = 12px */
     padding: 1em;
+    border: 0.5rem;
     text-align: center
   }
   
   .card p{
     font-weight: 400;
+  
   }
   .titulo-card, .descricao-card {
-    color: #1D428A;
+    color: #ffffff;
+  }
+
+  .painel{
+    display: flex;
+    justify-content: space-between
   }
   
