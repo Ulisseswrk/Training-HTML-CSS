@@ -20,9 +20,9 @@ This exercise aims to:
 
 ## 🗂️ Project Structure
 simple_website/
-├── index.html # Main HTML file containing the semantic structure of the page
-├── style.css # External CSS file used for layout and styling
-└── README.md # Project documentation
+ - index.html # Main HTML file containing the semantic structure of the page
+ - style.css # External CSS file used for layout and styling
+ - README.md # Project documentation
 
 ## 📄 File Overview
 
@@ -54,4 +54,4 @@ The external CSS file handles all the visual styling of the webpage, including:
    ```bash
    git clone https://github.com/your-username/fiap-frontend-practice.git
 
-  🧑‍💻 Project and README created by **Ulisses** – Software Engineering Student at **FIAP** 🥷
+  🧑‍💻 #Project and README created by **Ulisses** – Software Engineering Student at **FIAP** 🥷
