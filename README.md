@@ -54,4 +54,4 @@ The external CSS file handles all the visual styling of the webpage, including:
    ```bash
    git clone https://github.com/your-username/fiap-frontend-practice.git
 
-  🧑‍💻 #Project and README created by **Ulisses** – Software Engineering Student at **FIAP** 🥷
+## 🧑‍💻 Project and README created by **Ulisses** – Software Engineering Student at **FIAP**
