@@ -5,24 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+    <script src="https://kit.fontawesome.com/72e2a89a03.js" crossorigin="anonymous"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Atividade HTML</title>
 </head>
 <body>
     <header class="header">
-        <h1 class="logo">Company Name</h1>
+        <h1 class="logo">Microlearning</h1>
         <!-- Navbar -->
         <nav class="navbar">
-            <ul class="nav-links">
+            <ul class="nav-links" id="nav-links">
             <li><a href="#">Início</a></li>
             <li><a href="#">Sobre</a></li>
             <li><a href="#">Contato</a></li>
             </ul>
+            <div class="menu-toggle" id="menu-toggle">
+              <i class="fa-solid fa-bars"></i>
+            </div>
         </nav>
+        
+        
     </header>
 
-  
   <!-- Hero -->
   <section class="hero">
     <h1 class="hero-text">Bem-vindo ao <span class="enfase">Nosso Site</span></h1>
@@ -51,4 +58,5 @@
   </section>
   
 </body>
+<script src="app.js"></script>
 </html>
