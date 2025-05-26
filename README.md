@@ -15,8 +15,9 @@ This exercise aims to:
 
 - **HTML5**: To build the structure and define the semantics of the webpage.
 - **CSS3**: To style the content and enhance the user interface.
+- **JavaScript**: To build interactive features for the user
 
-> *No JavaScript or frameworks were used, as the focus of this project is purely on HTML and CSS fundamentals.*
+> *No frameworks were used, as the focus of this project is purely on HTML, CSS and JS fundamentals.*
 
 ## 🗂️ Project Structure
 simple_website/
